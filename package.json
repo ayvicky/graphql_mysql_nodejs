@@ -1,0 +1,26 @@
+{
+  "name": "graph_ql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^*",
+    "apollo-server-express": "^*",
+    "body-parser": "^*",
+    "cors": "^*",
+    "express": "^*",
+    "express-graphql": "^0.8.0",
+    "graphql": "^*",
+    "graphql-tools": "^*",
+    "mysql": "^2.16.0",
+    "notarealdb": "^0.2.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
